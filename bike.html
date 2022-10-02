@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+    <link rel="stylesheet" href="bike.css">
+</head>
+<body>
+    <div class="container">
+        <div class="path"></div>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About Us</a></li>
+    
+</ul>
+
+<div class="thumbnail">
+ <li><img src="bike.jpg" onclick="big('bike.jpg');"></li>
+ <li><img src="bike1.jpg" onclick="big('bike1.jpg');"></li>
+ <li><img src="bike3.jfif" onclick="big('bike3.jfif');"></li>
+</div>
+</div>
+
+<div class="big-img">
+    <img src="bike3.jfif " class="big">
+
+
+
+<div class="content">
+<p>&#x1f525;let's ride&#x1f525;</p>
+<h1>Don't Fear Dying Fear Not Living<br>&nbsp;&nbsp;</h1>
+<h5>&#x1f60e;For Bike Lover's & Bike Riders&#x1f525;</h5>
+
+</div>
+
+<script>
+    function big(img){
+        document.querySelector('.big').src=img;
+    }
+</script>
+</div>
+
+   
+</body>
+
+
+</html>
